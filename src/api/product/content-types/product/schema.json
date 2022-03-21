@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "products",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_image_sm": {
+      "type": "string"
+    },
+    "product_image_md": {
+      "type": "string"
+    },
+    "product_image_lg": {
+      "type": "string"
+    },
+    "product_name": {
+      "type": "string"
+    },
+    "product_type": {
+      "type": "string"
+    },
+    "product_department": {
+      "type": "string"
+    },
+    "product_departmentId": {
+      "type": "string"
+    },
+    "product_material": {
+      "type": "string"
+    },
+    "product_sales": {
+      "type": "integer"
+    },
+    "product_price": {
+      "type": "decimal"
+    },
+    "product_ratings": {
+      "type": "integer"
+    },
+    "product_stock": {
+      "type": "integer"
+    },
+    "product_discount": {
+      "type": "decimal"
+    }
+  }
+}
